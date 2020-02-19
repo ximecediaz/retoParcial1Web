@@ -1,0 +1,95 @@
+.grande{
+	display: inherit;
+}
+
+.piepag{
+	background-color: #333333;
+	height: 180px;
+	margin: 0;
+	padding: 0;
+}
+
+.tinfo{
+	color: white;
+	font-size: 10px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-family: Montserrat, sans-serif;
+	border-bottom: 3px solid #29aae1;
+	padding-bottom: 3px;
+}
+
+.info{
+	color: white;
+	font-size: 8px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 14px;
+}
+
+.texto{
+	float: left;
+	margin-right: 50px;
+}
+
+.piepag i{
+	color: #333333;
+	border-radius: 50%;
+	padding: 10px;
+	min-width: 15px;
+	background-color: white;
+	text-align: center;
+	margin: 7px;
+	right: 30px;
+}
+
+.social{
+	position: relative;
+	
+	float: right;
+	margin-right: 100px;
+	margin-top: 60px;
+}
+
+.conjunto{
+	margin-left: 80px;
+	margin-top: 50px;
+	float: left;
+}
+
+#logoAc{
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+.bloques{
+	height: 1400px;
+	background-color: white;
+	text-align: center;
+}
+
+.uno{
+	float: left;
+	margin-left: 80px;
+}
+
+.unoArriba{
+	height:230px;
+	width: 280px;
+	background-color: #FECE3C;
+}
+
+.unoMedio{
+	width: 230px;
+	height: 190px;
+	background-color: #8DE1E1;
+	margin-left: 40px;
+}
+
+.unoAbajo{
+	width: 230px;
+	height: 244px;
+	background-color: #723F89;
+	float: left;
+	position: inherit;
+}
