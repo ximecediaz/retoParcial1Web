@@ -77,7 +77,6 @@
 
 .unoArriba{
 	height:230px;
-	width: 280px;
 	background-color: #FECE3C;
 }
 
@@ -99,13 +98,13 @@
 .dos{
 	float: left;
 	border: 1px solid red;
-	width: 230px;
+	width: 250px;
 }
 
 .dosArriba{
-	height: 250px;
+	height: 210px;
 	background-color: #723F89;
-	margin-top: 40px;
+	margin-top: 70px;
 }
 
 .dosMedio{
@@ -116,4 +115,48 @@
 .dosAbajo{
 	background-color: #006E6F;
 	height: 250px;
+}
+
+.tres{
+	float: left;
+	border: 1px solid green;
+	width: 250px;
+}
+
+.tresArriba{
+	height: 210px;
+	margin-top: 40px;
+	background-color: #8DE1E1;
+}
+
+.tresMedio{
+	background-color: #006E6F;
+	height: 260px;
+}
+
+.cuatro{
+	float: left;
+	width: 250px;
+	border: 1px solid yellow;
+}
+
+.cuatroArriba{
+	background-color: #FF9386;
+	height: 230px;
+}
+
+.cuatroMedio{
+	background-color: #723F89;
+	height: 280px;
+}
+
+.cinco{
+	float: left;
+	width: 250px;
+	border: 1px solid black;
+}
+
+.cincoArriba{
+	background-color: #006E6F;
+	height: 180px;
 }
