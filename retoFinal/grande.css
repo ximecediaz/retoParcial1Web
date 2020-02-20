@@ -71,6 +71,8 @@
 .uno{
 	float: left;
 	margin-left: 80px;
+	border: 1px solid blue;
+	width: 280px;
 }
 
 .unoArriba{
@@ -87,9 +89,31 @@
 }
 
 .unoAbajo{
-	width: 230px;
+	width: 260px;
 	height: 244px;
 	background-color: #723F89;
+	margin-left: 20px;
 	float: left;
-	position: inherit;
+}
+
+.dos{
+	float: left;
+	border: 1px solid red;
+	width: 230px;
+}
+
+.dosArriba{
+	height: 250px;
+	background-color: #723F89;
+	margin-top: 40px;
+}
+
+.dosMedio{
+	background-color: #FF9386;
+	height: 260px;
+}
+
+.dosAbajo{
+	background-color: #006E6F;
+	height: 250px;
 }
