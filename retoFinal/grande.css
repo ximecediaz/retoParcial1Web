@@ -66,42 +66,75 @@
 	float: left;
 	border: 2px solid blue;
 	height: 200px;
-	width: 963px;
+	width: 994px;
 	position: relative;
+	top: 33px;
 }
 
 .unoArriba{
 	background-color: #FECE3C;
-	width: 230px;
+	width: 257px;
 	height: 200px;
 }
 
 .dosArriba{
 	background-color: #723F89;
-	width: 183px;
-	height: 200px;
+	width: 189px;
+	height: 165px;
 	float: inherit;
 	position: relative;
 	padding-top: 30px;
+	left: 257px;
+	top: -135px;
 }
 
-.tresArriba{
-	height: 200px;
+.tresArriba{ 
+	height: 180px;
 	background-color: #8DE1E1;
-	width: 183px;
+	width: 188px;
 	padding-top: 15px;
+	left: 446px;
+	position: relative;
+	top: -164px;
 }
 
 .cuatroArriba{
-	height: 200px;
+	height: 230px;
 	background-color: #FF9386;
-	width: 183px;
+	width: 189px;
+	position: relative;
+	top: -410px;
+	left: 634px;
+}
+
+.cincoArriba{
+	background-color: #006E6F;
+	width: 171px;
+	height: 164px;
+	position: relative;
+	top: -560px;
+	left: 823px;
 }
 
 .medio{
 	border: 2px solid red;
-	height: 200px;
+	height: 207px;
+	width: 1400px;
 	float: left;
+	position: relative;
+	top: 30px;
+}
+
+.unoMedio{
+	background-color: #8DE1E1;
+	height: 206px;
+	width: 189px;
+	left: 183px;
+	position: relative;
+}
+
+.dosMedio{
+	background-color: 
 }
 
 .abajo{
@@ -115,9 +148,11 @@
 	border: 2px solid pink; 
 	height: 600px;
 	width: 100%;
+	background-image: url("fondo.png");
 }
 
 #tubo1{
 	float: left;
+	width: 9%;
 	
 }
