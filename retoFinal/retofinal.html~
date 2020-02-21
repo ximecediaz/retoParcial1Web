@@ -9,17 +9,23 @@
 <body>
 
 <div class="bloques">
-	<img id="tubo1" src="tizqA.png" alt="">
+	<img id="t0" src="tubos/t0.png" alt="">
+	<img src="calendario.png" alt="">
 	<div class="arriba">
 		<div class="unoArriba">
+		<img id="t1" src="tubos/t1.png" alt="">
 		</div>
 		<div class="dosArriba">
+		<img id="t2" src="tubos/t2.png" alt="">
 		</div>
 		<div class="tresArriba">
+		<img id="t3" src="tubos/t3.png" alt="">
 		</div>
 		<div class="cuatroArriba">
+		<img id="t4" src="tubos/t4.png" alt="">
 		</div>
 		<div class="cincoArriba">
+		<img id="t5" src="tubos/t5.png" alt="">
 		</div>
 	</div>
 	<div class="medio">
