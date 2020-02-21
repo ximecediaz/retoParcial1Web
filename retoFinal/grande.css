@@ -67,8 +67,7 @@
 	border: 2px solid blue;
 	height: 200px;
 	width: 994px;
-	position: relative;
-	top: 33px;
+	margin-left: 115px;
 }
 
 .unoArriba{
@@ -154,5 +153,6 @@
 #tubo1{
 	float: left;
 	width: 9%;
-	
+	top: 190px;
+	position: relative;
 }

@@ -67,8 +67,6 @@
 	border: 2px solid blue;
 	height: 200px;
 	width: 994px;
-	position: relative;
-	top: 33px;
 }
 
 .unoArriba{
@@ -133,6 +131,10 @@
 	position: relative;
 }
 
+.dosMedio{
+	background-color: 
+}
+
 .abajo{
 	border: 2px solid green;
 	height: 200px;
@@ -150,5 +152,5 @@
 #tubo1{
 	float: left;
 	width: 9%;
-	
+	top: 50px;
 }
