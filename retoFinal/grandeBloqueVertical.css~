@@ -62,62 +62,32 @@
 	margin-top: 50px;
 }
 
+.bloques{
+	height: 810px;
+	background-color: white;
+	text-align: center;
+}
+
 .arriba{
 	float: left;
 	border: 2px solid blue;
-	height: 200px;
-	width: 963px;
-	position: relative;
-}
-
-.unoArriba{
-	background-color: #FECE3C;
-	width: 230px;
-	height: 200px;
-}
-
-.dosArriba{
-	background-color: #723F89;
-	width: 183px;
-	height: 200px;
-	float: inherit;
-	position: relative;
-	padding-top: 30px;
-}
-
-.tresArriba{
-	height: 200px;
-	background-color: #8DE1E1;
-	width: 183px;
-	padding-top: 15px;
-}
-
-.cuatroArriba{
-	height: 200px;
-	background-color: #FF9386;
-	width: 183px;
+	height: 270px;
 }
 
 .medio{
-	border: 2px solid red;
-	height: 200px;
 	float: left;
+	border: 2px solid red;
+	height: 270px;
 }
 
 .abajo{
-	border: 2px solid green;
-	height: 200px;
 	float: left;
+	border: 2px solid green;
+	height: 270px;
 }
 
-.bloques{
-	margin: 0px auto;
-	border: 2px solid pink; 
-	height: 600px;
-	width: 100%;
-}
+
 
 #tubo1{
-	float: left;
-	
+
 }

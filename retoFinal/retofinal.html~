@@ -9,6 +9,7 @@
 <body>
 
 <div class="bloques">
+	<img id="tubo1" src="tizqA.png" alt="">
 	<div class="uno">
 		<div class="unoArriba">
 		</div>
@@ -31,18 +32,7 @@
 		<div class="tresMedio">
 		</div>
 	</div>
-	<div class="cuatro">
-		<div class="cuatroArriba">
-		</div>
-		<div class="cuatroMedio">
-		</div>
-	</div>
-	<div class="cinco">
-		<div class="cincoArriba">
-		</div>
-		<div class="cincoMedio">
-		</div>
-	</div>
+	
 
 </div>
 
