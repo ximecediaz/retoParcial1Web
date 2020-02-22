@@ -74,6 +74,7 @@
 	background-color: #FECE3C;
 	width: 257px;
 	height: 200px;
+	overflow: hidden;
 }
 
 .dosArriba{
@@ -85,6 +86,7 @@
 	padding-top: 30px;
 	left: 257px;
 	top: -135px;
+	overflow: hidden;
 }
 
 .tresArriba{ 
@@ -92,9 +94,10 @@
 	background-color: #8DE1E1;
 	width: 188px;
 	padding-top: 15px;
-	left: 446px;
+	left: 257px;
 	position: relative;
 	top: -164px;
+	overflow: hidden;
 }
 
 .cuatroArriba{
@@ -104,6 +107,7 @@
 	position: relative;
 	top: -410px;
 	left: 634px;
+	overflow: hidden;
 }
 
 .cincoArriba{
@@ -113,39 +117,117 @@
 	position: relative;
 	top: -560px;
 	left: 823px;
+	overflow: hidden;
 }
 
 .medio{
 	border: 2px solid red;
 	height: 207px;
-	width: 1400px;
-	float: left;
+	width: 994px;
 	position: relative;
 	top: 30px;
+	float: left;
+	left: 183px;
 }
 
 .unoMedio{
 	background-color: #8DE1E1;
 	height: 206px;
 	width: 189px;
-	left: 183px;
-	position: relative;
+	overflow: hidden;
+	float: left;
+	position: absolute;
+	top: -33px;
 }
 
 .dosMedio{
-	background-color: 
+	background-color: #FF9386;
+	height: 213px;
+	width: 189px;
+	left: 189px;
+	overflow: hidden;
+	position: absolute;
+	top: 26px;
 }
+
+.tresMedio{
+	background-color: #006E6F;
+	height: 217px;
+	width: 189px;
+	position: absolute;
+	overflow: hidden;
+	left: 378px;
+}
+
+.cuatroMedio{
+	background-color: #723F89;
+	width: 188px;
+	height: 236px;
+	position: absolute;
+	left: 567px;
+	overflow: hidden;
+	top: -19px;
+}
+
+.cincoMedio{
+	background-color: #FECE3C;
+	width: 240px;
+	height: 222px;
+	position: absolute;
+	overflow: hidden;
+	left: 754px;
+	top: -5px;
+}
+
 
 .abajo{
 	border: 2px solid green;
-	height: 200px;
+	height: 210px;
+	width: 990px;
 	float: left;
+	left: 150px;
+	position: relative;
+	top: -6px;
+}
+
+.unoAbajo{
+	height: 210px;
+	width: 222px;
+	background-color: #723F89;
+	position: absolute;
+}
+
+.dosAbajo{
+	height: 189px;
+	width: 189px;
+	background-color: #006E6F;
+	left: 222px;
+	position: absolute;
+	top: 64px;
+}
+
+.tresAbajo{
+	height: 156px;
+	width: 284px;
+	background-color: #FECE3C;
+	position: absolute;
+	left: 411px;
+	top: 42px; 
+}
+
+.cuatroAbajo{
+	height: 191px;
+	width: 295px;
+	background-color: #8DE1E1;
+	position: absolute;
+	left: 695px;
+	top: 42px;
 }
 
 .bloques{
 	margin: 0px auto;
 	border: 2px solid pink; 
-	height: 600px;
+	height: 800px;
 	width: 100%;
 	background-image: url("fondo.png");
 }
@@ -155,6 +237,7 @@
 	width: 9%;
 	top: 190px;
 	position: relative;
+	overflow: hidden;
 }
 
 #t1{
@@ -170,7 +253,7 @@ position: relative;
 
 #t3{
 position: relative;
-top: -121px;
+top: 58px;
 }
 
 #t4{
@@ -185,6 +268,24 @@ top: 76px;
 
 #t6{
 	float: right;
+	top: 187px;
+	position: relative;
+	right: 54px;
+	overflow: hidden;
 
+}
+
+#t12{
+	float: left;
+	position: absolute;
+	overflow: hidden;
+	left: 44px;
+	top: 362px;
+}
+
+#t17{
+	position: absolute;
+	top: 658px;
+	left: 1140px;
 }
 
