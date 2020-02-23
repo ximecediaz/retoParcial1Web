@@ -7,6 +7,7 @@
 	height: 180px;
 	margin: 0;
 	padding: 0;
+	width: 100%;
 }
 
 .tinfo{
@@ -44,10 +45,18 @@
 
 .social{
 	position: relative;
-	
+	overflow: hidden;
 	float: right;
 	margin-right: 100px;
 	margin-top: 60px;
+}
+
+#calend{
+position: relative;
+
+left: 115px;
+
+top: 4px;
 }
 
 .conjunto{
@@ -64,164 +73,276 @@
 
 .arriba{
 	float: left;
-	border: 2px solid blue;
+	width: 100%;
 	height: 200px;
-	width: 994px;
-	margin-left: 115px;
+	border: 2px solid blue;
 }
 
 .unoArriba{
-	background-color: #FECE3C;
-	width: 257px;
-	height: 200px;
-	overflow: hidden;
+background-color:
+#FECE3C;
+
+width: 257px;
+
+height: 200px;
+
+overflow: hidden;
+
+position: absolute;
+
+left: 127px;
 }
 
 .dosArriba{
-	background-color: #723F89;
-	width: 189px;
-	height: 165px;
-	float: inherit;
-	position: relative;
-	padding-top: 30px;
-	left: 257px;
-	top: -135px;
-	overflow: hidden;
+background-color:
+#723F89;
+
+width: 189px;
+
+height: 195px;
+
+float: inherit;
+
+position: relative;
+
+left: 257px;
+
+overflow: hidden;
+
+top: 65px;
 }
 
 .tresArriba{ 
-	height: 180px;
-	background-color: #8DE1E1;
-	width: 188px;
-	padding-top: 15px;
-	left: 257px;
-	position: relative;
-	top: -164px;
-	overflow: hidden;
+height: 195px;
+
+background-color:
+#8DE1E1;
+
+width: 188px;
+
+left: 257px;
+
+position: relative;
+
+overflow: hidden;
+
+opacity: 0.5;
+
+top: 36px;
 }
 
 .cuatroArriba{
-	height: 230px;
-	background-color: #FF9386;
-	width: 189px;
-	position: relative;
-	top: -410px;
-	left: 634px;
-	overflow: hidden;
+height: 225px;
+
+background-color:
+#FF9386;
+
+width: 189px;
+
+position: relative;
+
+top: -209px;
+
+left: 749px;
+
+overflow: hidden;
 }
 
 .cincoArriba{
-	background-color: #006E6F;
-	width: 171px;
-	height: 164px;
-	position: relative;
-	top: -560px;
-	left: 823px;
-	overflow: hidden;
+background-color:
+#006E6F;
+
+width: 171px;
+
+height: 164px;
+
+position: relative;
+
+top: -355px;
+
+left: 938px;
+
+overflow: hidden;
 }
 
 .medio{
-	border: 2px solid red;
-	height: 207px;
-	width: 994px;
-	position: relative;
-	top: 30px;
-	float: left;
-	left: 183px;
+border: 2px solid
+red;
+
+height: 207px;
+
+width: 100%;
+
+position: relative;
+
+top: 30px;
+
+float: left;
 }
 
 .unoMedio{
-	background-color: #8DE1E1;
-	height: 206px;
-	width: 189px;
-	overflow: hidden;
-	float: left;
-	position: absolute;
-	top: -33px;
+background-color:
+#8DE1E1;
+
+height: 206px;
+
+width: 189px;
+
+overflow: hidden;
+
+position: absolute;
+
+top: -33px;
+
+left: 183px;
 }
 
 .dosMedio{
-	background-color: #FF9386;
-	height: 213px;
-	width: 189px;
-	left: 189px;
-	overflow: hidden;
-	position: absolute;
-	top: 26px;
+background-color:
+#FF9386;
+
+height: 213px;
+
+width: 189px;
+
+left: 372px;
+
+overflow: hidden;
+
+position: absolute;
+
+top: 26px;
 }
 
 .tresMedio{
-	background-color: #006E6F;
-	height: 217px;
-	width: 189px;
-	position: absolute;
-	overflow: hidden;
-	left: 378px;
+background-color:
+#006E6F;
+
+height: 217px;
+
+width: 189px;
+
+position: absolute;
+
+overflow: hidden;
+
+left: 560px;
 }
 
 .cuatroMedio{
-	background-color: #723F89;
-	width: 188px;
-	height: 236px;
-	position: absolute;
-	left: 567px;
-	overflow: hidden;
-	top: -19px;
+background-color:
+#723F89;
+
+width: 188px;
+
+height: 240px;
+
+position: absolute;
+
+left: 749px;
+
+overflow: hidden;
+
+top: -22px;
 }
 
 .cincoMedio{
-	background-color: #FECE3C;
-	width: 240px;
-	height: 222px;
-	position: absolute;
-	overflow: hidden;
-	left: 754px;
-	top: -5px;
+background-color:
+#FECE3C;
+
+width: 240px;
+
+height: 222px;
+
+position: absolute;
+
+overflow: hidden;
+
+left: 938px;
+
+top: -5px;
 }
 
 
 .abajo{
-	border: 2px solid green;
-	height: 210px;
-	width: 990px;
-	float: left;
-	left: 150px;
-	position: relative;
-	top: -6px;
+border: 2px solid
+green;
+
+height: 210px;
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+top: -6px;
 }
 
 .unoAbajo{
-	height: 210px;
-	width: 222px;
-	background-color: #723F89;
-	position: absolute;
+height: 210px;
+
+width: 222px;
+
+background-color:
+#723F89;
+
+position: absolute;
+
+overflow: hidden;
+
+left: 147px;
 }
 
 .dosAbajo{
-	height: 189px;
-	width: 189px;
-	background-color: #006E6F;
-	left: 222px;
-	position: absolute;
-	top: 64px;
+height: 189px;
+
+width: 189px;
+
+background-color:
+#006E6F;
+
+left: 372px;
+
+position: absolute;
+
+top: 64px;
+
+overflow: hidden;
 }
 
 .tresAbajo{
-	height: 156px;
-	width: 284px;
-	background-color: #FECE3C;
-	position: absolute;
-	left: 411px;
-	top: 42px; 
+height: 156px;
+
+width: 284px;
+
+background-color:
+#FECE3C;
+
+position: absolute;
+
+left: 561px;
+
+top: 42px;
+
+overflow: hidden;
 }
 
 .cuatroAbajo{
-	height: 191px;
-	width: 295px;
-	background-color: #8DE1E1;
-	position: absolute;
-	left: 695px;
-	top: 42px;
+height: 191px;
+
+width: 295px;
+
+background-color:
+#8DE1E1;
+
+position: absolute;
+
+left: 844px;
+
+top: 42px;
+
+overflow: hidden;
 }
 
 .bloques{
@@ -233,11 +354,15 @@
 }
 
 #t0{
-	float: left;
-	width: 9%;
-	top: 190px;
-	position: relative;
-	overflow: hidden;
+float: left;
+
+width: 9%;
+
+top: 153px;
+
+position: relative;
+
+overflow: hidden;
 }
 
 #t1{
@@ -247,18 +372,18 @@ right: 4px;
 }
 
 #t2{
-top: 58px;
+top: 87px;
 position: relative;
 }
 
 #t3{
 position: relative;
-top: 58px;
+top: 73px;
 }
 
 #t4{
 position: relative;
-top: 125px;
+top: 123px;
 }
 
 #t5{
@@ -267,60 +392,87 @@ top: 76px;
 }
 
 #t6{
-	float: right;
-	top: 187px;
-	position: relative;
-	right: 54px;
-	overflow: hidden;
+position: absolute;
+
+overflow: hidden;
+
+float: right;
+
+top: 230px;
+
+right: 58px;
 
 }
 
 #t7{
+top: 117px;
 
+position: relative;
 }
 
 #t8{
+position: relative;
 
+top: 126px;
 }
 
 #t9{
+position: relative;
 
+top: 153px
 }
 
 #t10{
+position: relative;
 
+top: 111px;
 }
 
 #t11{
+position: relative;
 
+top: 115px;
 }
 
 #t12{
-	float: left;
-	position: absolute;
-	overflow: hidden;
-	left: 44px;
-	top: 362px;
+position: absolute;
+
+overflow: hidden;
+
+left: 31px;
+
+float: left;
+
+top: 83px;
 }
 
 #t13{
+position: relative;
 
+top: 86px;
 }
 
 #t14{
+position: relative;
 
+top: 77px;
 }
 
 #t15{
+position: relative;
 
+top: 60px;
 }
 
 #t16{
-
+position: relative;
+top: 116px;
 }
 #t17{
-	position: absolute;
-	top: 658px;
-	left: 1140px;
+position: absolute;
+
+top: 204px;
+
+left: 1128px;
 }
 
