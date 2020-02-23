@@ -32,6 +32,10 @@
 	margin-right: 50px;
 }
 
+span{
+	font-family: Montserrat, sans-serif;
+}
+
 .piepag i{
 	color: #333333;
 	border-radius: 50%;
@@ -45,7 +49,7 @@
 
 .social{
 	position: relative;
-	
+	overflow: hidden;
 	float: right;
 	margin-right: 100px;
 	margin-top: 60px;
@@ -79,18 +83,13 @@ top: 4px;
 }
 
 .unoArriba{
-background-color:
-#FECE3C;
-
-width: 257px;
-
-height: 200px;
-
-overflow: hidden;
-
-position: absolute;
-
-left: 127px;
+	background-color: #FECE3C;
+	width: 257px;
+	height: 200px;
+	overflow: hidden;
+	position: absolute;
+	left: 127px;
+	color: #723F89;
 }
 
 .dosArriba{
@@ -476,3 +475,14 @@ top: 204px;
 left: 1128px;
 }
 
+.taller{
+	position: absolute;
+	margin: 20px;
+}
+
+.fechas{
+	top: 50%;
+	position: absolute;
+	left: 50%;
+	font-size: 10pt;
+}

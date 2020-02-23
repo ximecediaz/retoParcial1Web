@@ -32,6 +32,10 @@
 	margin-right: 50px;
 }
 
+span{
+	font-family: Montserrat, sans-serif;
+}
+
 .piepag i{
 	color: #333333;
 	border-radius: 50%;
@@ -75,274 +79,175 @@ top: 4px;
 	float: left;
 	width: 100%;
 	height: 200px;
-	border: 2px solid blue;
 }
 
 .unoArriba{
-background-color:
-#FECE3C;
-
-width: 257px;
-
-height: 200px;
-
-overflow: hidden;
-
-position: absolute;
-
-left: 127px;
+	background-color: #FECE3C;
+	width: 257px;
+	height: 200px;
+	overflow: hidden;
+	position: absolute;
+	left: 127px;
+	color: #723F89;
 }
 
 .dosArriba{
-background-color:
-#723F89;
-
-width: 189px;
-
-height: 195px;
-
-float: inherit;
-
-position: relative;
-
-left: 257px;
-
-overflow: hidden;
-
-top: 65px;
+	background-color: #723F89;
+	width: 189px;
+	height: 195px;
+	float: inherit;
+	position: relative;
+	left: 257px;
+	overflow: hidden;
+	top: 65px;
+	color: white;
 }
 
 .tresArriba{ 
-height: 195px;
-
-background-color:
-#8DE1E1;
-
-width: 188px;
-
-left: 257px;
-
-position: relative;
-
-overflow: hidden;
-
-opacity: 0.5;
-
-top: 36px;
+	height: 195px;
+	background-color: #8DE1E1;
+	width: 188px;
+	left: 257px;
+	position: relative;
+	overflow: hidden;
+	top: 36px;
+	color: #723F89;
 }
 
 .cuatroArriba{
-height: 225px;
-
-background-color:
-#FF9386;
-
-width: 189px;
-
-position: relative;
-
-top: -209px;
-
-left: 749px;
-
-overflow: hidden;
+	height: 225px;
+	background-color:#FF9386;
+	width: 189px;
+	position: relative;
+	top: -209px;
+	left: 749px;
+	overflow: hidden;
+	color: white;
 }
 
 .cincoArriba{
-background-color:
-#006E6F;
-
-width: 171px;
-
-height: 164px;
-
-position: relative;
-
-top: -355px;
-
-left: 938px;
-
-overflow: hidden;
+	background-color: #006E6F;
+	width: 171px;
+	height: 164px;
+	position: relative;
+	top: -355px;
+	left: 938px;
+	overflow: hidden;
+	color: white;
 }
 
 .medio{
-border: 2px solid
-red;
-
-height: 207px;
-
-width: 100%;
-
-position: relative;
-
-top: 30px;
-
-float: left;
+	height: 207px;
+	width: 100%;
+	position: relative;
+	top: 30px;
+	float: left;
 }
 
 .unoMedio{
-background-color:
-#8DE1E1;
-
-height: 206px;
-
-width: 189px;
-
-overflow: hidden;
-
-position: absolute;
-
-top: -33px;
-
-left: 183px;
+	background-color: #8DE1E1;
+	height: 206px;
+	width: 189px;
+	overflow: hidden;
+	position: absolute;
+	top: -33px;
+	left: 183px;
+	color: #723F89;
 }
 
 .dosMedio{
-background-color:
-#FF9386;
-
-height: 213px;
-
-width: 189px;
-
-left: 372px;
-
-overflow: hidden;
-
-position: absolute;
-
-top: 26px;
+	background-color:#FF9386;
+	height: 213px;
+	width: 189px;
+	left: 372px;
+	overflow: hidden;
+	position: absolute;
+	top: 26px;
+	color: white;
 }
 
 .tresMedio{
-background-color:
-#006E6F;
-
-height: 217px;
-
-width: 189px;
-
-position: absolute;
-
-overflow: hidden;
-
-left: 560px;
+	background-color:#006E6F;
+	height: 217px;
+	width: 189px;
+	position: absolute;
+	overflow: hidden;
+	left: 560px;
+	color: white;
 }
 
 .cuatroMedio{
-background-color:
-#723F89;
-
-width: 188px;
-
-height: 240px;
-
-position: absolute;
-
-left: 749px;
-
-overflow: hidden;
-
-top: -22px;
+	background-color:#723F89;
+	width: 188px;
+	height: 240px;
+	position: absolute;
+	left: 749px;
+	overflow: hidden;
+	top: -22px;
+	color: white;
 }
 
 .cincoMedio{
-background-color:
-#FECE3C;
-
-width: 240px;
-
-height: 222px;
-
-position: absolute;
-
-overflow: hidden;
-
-left: 938px;
-
-top: -5px;
+	background-color:#FECE3C;
+	width: 240px;
+	height: 222px;
+	position: absolute;
+	overflow: hidden;
+	left: 938px;
+	top: -5px;
+	color: #723F89;
 }
 
 
 .abajo{
-border: 2px solid
-green;
-
-height: 210px;
-
-width: 100%;
-
-float: left;
-
-position: relative;
-
-top: -6px;
+	height: 210px;
+	width: 100%;
+	float: left;
+	position: relative;
+	top: -6px;
 }
 
 .unoAbajo{
-height: 210px;
-
-width: 222px;
-
-background-color:
-#723F89;
-
-position: absolute;
-
-overflow: hidden;
-
-left: 147px;
+	height: 210px;
+	width: 222px;
+	background-color:#723F89;
+	position: absolute;
+	overflow: hidden;
+	left: 147px;
+	color: white;
 }
 
 .dosAbajo{
-height: 189px;
-
-width: 189px;
-
-background-color:
-#006E6F;
-
-left: 372px;
-
-position: absolute;
-
-top: 64px;
-
-overflow: hidden;
+	height: 189px;
+	width: 189px;
+	background-color:#006E6F;
+	left: 372px;
+	position: absolute;
+	top: 64px;
+	color: white;
+	overflow: hidden;
 }
 
 .tresAbajo{
-height: 156px;
-
-width: 284px;
-
-background-color:
-#FECE3C;
-
-position: absolute;
-
-left: 561px;
-
-top: 42px;
-
-overflow: hidden;
+	height: 156px;	
+	width: 284px;
+	background-color:#FECE3C;
+	position: absolute;
+	left: 561px;
+	top: 42px;
+	color: #723F89;
+	overflow: hidden;
 }
 
 .cuatroAbajo{
-height: 191px;
-
-width: 295px;
-
-background-color:
-#8DE1E1;
-
-position: absolute;
-
-left: 844px;
-
-top: 42px;
-
-overflow: hidden;
+	height: 191px;
+	width: 295px;
+	background-color:#8DE1E1;
+	position: absolute;
+	left: 844px;
+	top: 42px;
+	color: #723F89;
+	overflow: hidden;
 }
 
 .bloques{
@@ -476,3 +381,14 @@ top: 204px;
 left: 1128px;
 }
 
+.taller{
+	position: absolute;
+	margin: 20px;
+}
+
+.fechas{
+	top: 50%;
+	position: absolute;
+	left: 50%;
+	font-size: 10pt;
+}
